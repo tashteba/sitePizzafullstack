@@ -8,13 +8,16 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="assets/myMenu.css">
 
 
 <?php include 'includes/head.php'; ?>
 <body>
     
     <?php include 'includes/navbar.php'; ?>
-    <h1 style = "margin-top: 22rem; text-align: center;"> Here Menu of today</h1>
+    <h1 class ="titreMenu"> Here is Menu of today</h1>
+    <a href="signup.php" target="_blank"><button  type="submit" class="btn buttonLogin middle" name="validateAll ">Add new admin</button></a>
+
     <section class="menu" id="menu">
     <div class="menu-content">
         <?php  
@@ -33,7 +36,7 @@
                     <i class ="fas fa-star"></i>
                     <i class ="fas fa-star"></i>
                     <h2> <?= $pizza['Title'];?></h2>
-                    <div><p style = "font-size:1.5rem; color:red;"><?= $pizza['Description'];?></p></div>
+                    <div><p class = "paragraphMenu"><?= $pizza['Description'];?></p></div>
                     <div class="price"><?= $pizza['Prise'];?> €</div>
                     <div> Shared <br>by <br> <?= $pizza["share"];?><br> In <br><?= $pizza["Date_publication"];?></div>
 

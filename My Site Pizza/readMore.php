@@ -12,7 +12,7 @@
 <div class="accordion" id="accordionPanelsStayOpenExample" style = "margin-top: 12rem; font-size: 1.2rem;">
   <div class="accordion-item">
     <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne" style= 'font-size: 1.5rem;   color: red;'>
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
         1- GOOD QUALITY
       </button>
     </h2>

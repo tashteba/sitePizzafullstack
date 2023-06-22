@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(59, 52, 52);
+    color:#d5ab65; 
+    font-size:2.4rem; 
+    padding-top: 5%;
+    background: url(photos/coverMyMenu.jpg);
+    background-size: cover;
+    background-repeat: none;
+
+
+}
+.error {
+    color: red;
+    font-size: 2rem;
+    text-align: center;
+
+}
+.good {
+    color :white;
+    font-size: 2rem;
+    text-align: center;
+
+
+}
+.bigger {
+    font-size: 2.2rem;
+}
+.middle{
+    font-size: 2.3rem;
+    text-align: center;
+}

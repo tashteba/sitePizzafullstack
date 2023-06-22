@@ -12,8 +12,8 @@
             
         </nav>
         <div class="side-bar">
-            <i class = "fas fa-search" id="search"></i>
-            <a href="actions/logoutAction.php"><i class = 'fas fa-user' id="user" ></i></a>
+            <!-- <i class = "fas fa-search" id="search"></i> -->
+            <a href="actions/logoutAction.php"><i class ='fas fa-user' id="user" ></i></a>
             <i class = 'fas fa-bars' id="bars"></i>
         </div>
         <form action="#" class = "search-bar" >

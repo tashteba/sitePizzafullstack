@@ -21,11 +21,11 @@ if(isset($_GET['id']) AND !empty($_GET['id'])){
             $pizza_title = $pizzaInfos['Title'];
             $pizza_description = $pizzaInfos['Description'];
             $pizza_bin = $pizzaInfos["bin"];
-            $pizza_prise = $pizzaInfos['Prise'];
+            $pizza_price = $pizzaInfos['Prise'];
             
-
+        // str_replace for change every occurrences in my string "here I will change every <br> by spaces"
             $pizza_description = str_replace('<br />', '', $pizza_description);
-            $pizza_prise = str_replace('<br />', '', $pizza_prise);
+            $pizza_price = str_replace('<br />', '', $pizza_price);
 
         }else{
             $errorMsg = "You are not the good admin for this pizza";

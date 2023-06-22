@@ -20,7 +20,7 @@ if(isset($_POST['validate'])){
         $editPizzaOnWebsite = $bdd->prepare('UPDATE pizzamenu SET Title = ?, Description = ?, Prise = ?, bin = ? WHERE id = ?');
         $editPizzaOnWebsite->execute(array($new_pizza_title, $new_pizza_description, $new_pizza_prise, $new_pizza_image, $idOfPizza));
 
-        //send request to myMenu for  My new Menu.
+        //send admin to myMenu for  My new Menu.
         header('Location: myMenu.php');
 
     }else{

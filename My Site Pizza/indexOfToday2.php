@@ -13,7 +13,7 @@
 
 <?php include 'includes/navbar.php'; ?>
 
-    <h1 style = "margin-top: 22rem; text-align: center;"> Here, There is Menu of today</h1>
+    <h1 style = "margin-top: 18px; text-align: center;"> Here, There is Menu of today</h1>
     
        
         <br>
@@ -35,17 +35,14 @@
                                         <i class ="fas fa-star"></i>
                                         <i class ="fas fa-star"></i>
                                         <h2> <?= $pizza['Title'];?></h2>
-                                        <div><p style = "font-size:1.5rem; color:red;"><?= $pizza['Description'];?></p></div>
+                                        <div><p class="paraGraphPizza"><?= $pizza['Description'];?></p></div>
                                         <div class="price"><?= $pizza['Prise'];?> €</div>
                                         </div>
                                         </div>
 
                                     <br>
             </div>
-                                
-                                
-                            
-
+            
                 <?php
             }
         ?>

@@ -4,7 +4,7 @@ session_start();
 
 require('dataBase.php');
 
-// Making sure if id is existe and not empty.
+// Making sure if id of pizza is existe and not empty.
 if(isset($_GET['id']) && !empty($_GET['id'])){
     
     // Getting the id of Pizza.

@@ -17,6 +17,19 @@
         menu.classList.remove("active");
         searchfrm.classList.remove("active");
     }
+
+
+
+
+
+
+
+
+
+
+
+
+    
 // button place
 /*let brick = document.querySelector('#brick');
 
